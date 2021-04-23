@@ -1,5 +1,7 @@
 #!/bin/sh
 
+sleep 10
+
 echo "####################################"
 echo "# pwd                              #"
 echo "####################################"
@@ -13,6 +15,7 @@ find /var/run
 id
 mount 
 hostname
+ps -ef
 
 echo "###################################"
 echo "# find on /var/run                #"
@@ -28,4 +31,5 @@ ls -alR /var/run/secrets/
 id
 mount 
 hostname
+ps -ef
 sleep 9999
