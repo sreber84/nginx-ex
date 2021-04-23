@@ -10,6 +10,9 @@ echo "####################################"
 
 find .
 find /var/run
+id
+mount 
+hostname
 
 echo "###################################"
 echo "# find on /var/run                #"
@@ -22,4 +25,7 @@ echo "# cat token                       #"
 echo "###################################"
 
 ls -alR /var/run/secrets/
+id
+mount 
+hostname
 sleep 9999
