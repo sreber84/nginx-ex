@@ -15,6 +15,7 @@ find /var/run
 id
 mount 
 hostname
+sleep 9999
 ps -ef
 
 echo "###################################"
